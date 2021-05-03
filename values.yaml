@@ -24,12 +24,12 @@ service:
 
 ports:
   mqtt:
-    port: 1884
+    port: 1883
     # sets consistent nodePort, required to set service.type=NodePort
     # nodePort: 31883
     protocol: TCP
   websocket:
-    port: 9091
+    port: 9090
     protocol: TCP
 
 persistence:
