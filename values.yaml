@@ -24,7 +24,7 @@ service:
 
 ports:
   mqtt:
-    port: 1883
+    port: 1882
     # sets consistent nodePort, required to set service.type=NodePort
     # nodePort: 31883
     protocol: TCP
