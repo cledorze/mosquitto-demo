@@ -105,7 +105,7 @@ config: |
   persistence true
   persistence_location /mosquitto/data/
   log_dest stdout
-  listener 1882
+  listener 1883
   listener 9090
   protocol websockets
 
